@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+}
+img{
+    width: 100px;
+    cursor: pointer;
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+}

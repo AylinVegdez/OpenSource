@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{data.titulo}}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/estilos.css') }}">
+</head>
+
+<body>
+  <div class="contenedor">
+    <img src="{{url_for('static', filename='img/img.png')}}">
+    <h1 style="color: cyan;">{{nombre}} {{data.saludo}} a Flask</h1>
+    <img class="mb-4" src="/docs/5.2/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+  </div>
+  <h2 style="color:white;">Cursos en los que me especializo</h2>
+  {% if data.numero_cursos>0%}
+      <ul>
+      {% for curso in data.cursos: %}
+        <li style="color: white;">{{ curso }}</li>
+      {% endfor %}
+      </ul>
+  {% else %}
+    <h2 >No existen cursos para mostrar</h2>
+  {% endif %}
+
+  <script src="{{url_for('static', filename='js/script.js')}}"></script>
+</body>
+</html>

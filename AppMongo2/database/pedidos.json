@@ -1,0 +1,19 @@
+{
+    "_id":10000,
+    "fecha":"Date(2022-10-01)",
+    "total":698.6,
+    "descuento":100.50,
+    "productosPedidos":[
+        {
+            "_idProductos":100,
+            "$ref":"productos",
+            "nombreProductos":"Tequila centenario",
+            "cantidad":1,
+            "descuento":80.9,
+            "precioFinal":370.8,
+            "subTotal":370.8,
+            "imagen":"tequila1.jpg"
+        }
+    ]
+
+}

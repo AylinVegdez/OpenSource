@@ -1,0 +1,7 @@
+{
+    "_id":100,
+    "nombre":"Tequila",
+    "descripcion":" ...",
+    "oferta": false,
+    "imagen":["tequila1.jpg","tequila2.jpg"]
+}

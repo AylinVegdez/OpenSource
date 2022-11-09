@@ -1,0 +1,44 @@
+[
+    {
+        "Nombre": "Rocha Torres Isaac",
+        "Materias": [
+            "Inteligencia Artificial",
+            "Analisis y dise\u00f1o de sistemas de informacion",
+            "Programacion orientadada objetos",
+            "Microservicios",
+            "Dise\u00f1o UX y UI",
+            "Contabilidad Financiera"
+        ]
+    },
+    {
+        "Nombre": "Rocha Torres Isaac",
+        "Materias": [
+            "Inteligencia Artificial",
+            "Analisis y dise\u00f1o de sistemas de informacion",
+            "Programacion orientadada objetos",
+            "Microservicios",
+            "Dise\u00f1o UX y UI",
+            "Contabilidad Financiera"
+        ]
+    },
+    {
+        "Nombre": "Bautista Mejia Carlos Israel",
+        "Materias": [
+            "Desarrollo Web",
+            "Contabilidad",
+            "Matem\u00e1ticas IV",
+            "Base de Datos"
+        ]
+    },
+    {
+        "Nombre": "Avalos Sanchez Brian",
+        "Materias": [
+            "Base de Datos",
+            "Desarrollo Web",
+            "Inteligencia Artificial",
+            "Matem\u00e1ticas IV",
+            "Programaci\u00f3n I",
+            "Contabilidad"
+        ]
+    }
+]

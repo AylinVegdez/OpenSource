@@ -1,0 +1,30 @@
+{
+    "Nombre": "Vega Hernandez Eileen Gizelle",
+    "Materias": [
+        {
+            "Nombre": "Contabilidad Financiera",
+            "Promedio": "83"
+        },
+        {
+            "Nombre": "Microservicios",
+            "Promedio": "87"
+        },
+        {
+            "Nombre": "Matem\u00e1ticas IV",
+            "Promedio": "100"
+        },
+        {
+            "Nombre": "Dise\u00f1o UX y UI",
+            "Promedio": "100"
+        },
+        {
+            "Nombre": "Base de datos distribuidas",
+            "Promedio": "95"
+        },
+        {
+            "Nombre": "Finanzas",
+            "Promedio": "87"
+        }
+    ],
+    "Promedio General": 92.0
+}
