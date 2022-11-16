@@ -14,9 +14,12 @@ def Consulta_Promedio():
     ctrl = input("Dame el numero de control: ")
     obj_consulta=f"select E.control,E.nombre, format(avg(K.calificacion),1) as promedio from estudiantes E, kardex K where E.control='{ctrl}';"
     est=obj_MySQL.consulta_sql(obj_consulta)
-    print("N_Control        Nombre               Promedio")
+    Dic={}
     for e in est:
-        print(e[0], e[1] ,e[2])
+        #print(e[0], e[1] ,e[2])
+        Dic["Estudiante"]=e[1]
+        Dic["Promedio"]=e[2]
+    print(json.dumps(Dic,indent=4))
     print("\n\n")
 
 def Consultar_Materias():
