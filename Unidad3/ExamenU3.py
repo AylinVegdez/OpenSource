@@ -35,13 +35,13 @@ def Consultar_Materias():
         r["Estudiante"] = resp[0][0]
         for mat in resp:
             m["Materia"] = mat[1]
-            m["Calificacion"]=mat[2]
+            m["Calificacion"]=int(mat[2])
             lista.append(m)
         r["Materias"]=lista
-        print(r)
-
     else:
         print(f"El estudiante con Número de control: {ctrl} NO existe")
+    print(json.dumps(r, indent=4))
+
 
 
 def menu():
