@@ -47,8 +47,8 @@ def Consultar_Materias():
 def menu():
     while True:
         print("\n=======================EXAMEN U3 Y U6  =============================\n");
-        print("1.Obtener el promedio general del estudiante");
-        print("2.Consultar Materia");
+        print("1.Consultar Materia");
+        print("2.Obtener el promedio general del estudiante");
         print("3. Salir");
         print("\n==============================================================\n");
         print("Dame la opcion que deseas");
@@ -58,9 +58,9 @@ def menu():
             print("Error: ",error);
             break
         if opcion==1:
-           Consulta_Promedio()
-        if opcion==2:
             Consultar_Materias()
+        if opcion==2:
+            Consulta_Promedio()
         if opcion==3:
             break
     else:
